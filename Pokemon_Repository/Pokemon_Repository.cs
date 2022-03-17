@@ -42,7 +42,7 @@ namespace Pokemon_Repository
             pokemon.MoveFour = updates.MoveFour
         }
 
-        public void UpdatePokemonByNickName(string nickName, Pokemon newPokemon)
+       /*  public void UpdatePokemonByNickName(string nickName, Pokemon newPokemon)
         {
             foreach(Pokemon p in pokemonList)
             {
@@ -51,7 +51,7 @@ namespace Pokemon_Repository
                     p = new Pokemon;
                 }
             }
-        }
+        } */
 
         //remove pokemon
         public void RemovePokemonFromTeam(int teamPosition)
